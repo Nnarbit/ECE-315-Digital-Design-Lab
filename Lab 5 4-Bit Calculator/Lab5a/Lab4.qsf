@@ -1,0 +1,103 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 11:56:54  March 02, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab4_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY CalculatorDisplay
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:56:54  MARCH 02, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_AE26 -to D00
+set_location_assignment PIN_AE27 -to D01
+set_location_assignment PIN_AE28 -to D02
+set_location_assignment PIN_AH28 -to D06
+set_location_assignment PIN_AG28 -to D05
+set_location_assignment PIN_AF28 -to D04
+set_location_assignment PIN_AG27 -to D03
+set_location_assignment PIN_AD27 -to D16
+set_location_assignment PIN_AF30 -to D15
+set_location_assignment PIN_AF29 -to D14
+set_location_assignment PIN_AG30 -to D13
+set_location_assignment PIN_AH30 -to D12
+set_location_assignment PIN_AH29 -to D11
+set_location_assignment PIN_AJ29 -to D10
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
+set_location_assignment PIN_AA14 -to CLK
+set_location_assignment PIN_AA15 -to RESET
+set_location_assignment PIN_AB12 -to X0
+set_location_assignment PIN_AC12 -to X1
+set_location_assignment PIN_AF9 -to X2
+set_location_assignment PIN_AF10 -to X3
+set_location_assignment PIN_AC9 -to Y3
+set_location_assignment PIN_AE11 -to Y2
+set_location_assignment PIN_AD12 -to Y1
+set_location_assignment PIN_AD11 -to Y0
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE Lab3Sub.bdf
+set_global_assignment -name BDF_FILE CounterBoard.bdf
+set_global_assignment -name BDF_FILE Block1.bdf
+set_global_assignment -name BDF_FILE AdderV2.bdf
+set_global_assignment -name BDF_FILE AdderSubtracterV2.bdf
+set_global_assignment -name BDF_FILE AdderCalcV2.bdf
+set_global_assignment -name BDF_FILE CalculatorDisplay.bdf
+set_global_assignment -name BDF_FILE Bit4MultDisplay.bdf
+set_global_assignment -name BDF_FILE AdderDisplay.bdf
+set_global_assignment -name BDF_FILE Register8bit.bdf
+set_global_assignment -name BDF_FILE Bit4Multiplier.bdf
+set_global_assignment -name BDF_FILE AdderSubtracter.bdf
+set_global_assignment -name BDF_FILE Lab3Adder.bdf
+set_global_assignment -name BDF_FILE add3counter.bdf
+set_global_assignment -name BDF_FILE CounterDisplay.bdf
+set_global_assignment -name BDF_FILE Lab2SegmentDisplay.bdf
+set_global_assignment -name BDF_FILE BDC.bdf
+set_global_assignment -name BDF_FILE BDC3.bdf
+set_global_assignment -name BDF_FILE Add3.bdf
+set_global_assignment -name BDF_FILE SignDisplay.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name BDF_FILE MultCalc.bdf
+set_global_assignment -name BDF_FILE AdderCalc.bdf

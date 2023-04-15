@@ -1,0 +1,73 @@
+|AdderSubtracter
+output_1 <= SUM1.DB_MAX_OUTPUT_PORT_TYPE
+Input_A1 => NA.IN0
+Input_A1 => inst8.IN0
+Input_A1 => inst9.IN0
+Input_A1 => inst11.IN0
+Input_A1 => inst.IN0
+Input_S => inst46.IN0
+Input_S => inst6.IN2
+Input_S => inst8.IN2
+Input_S => inst10.IN1
+Input_S => inst11.IN1
+Input_B1 => NB.IN0
+Input_B1 => 21mux:inst37.A
+output_2 <= SUM2.DB_MAX_OUTPUT_PORT_TYPE
+Input_A2 => NA15.IN0
+Input_A2 => inst15.IN0
+Input_A2 => inst16.IN0
+Input_A2 => inst18.IN0
+Input_A2 => inst14.IN0
+Input_B2 => NB16.IN0
+Input_B2 => 21mux:inst38.A
+output_3 <= SUM3.DB_MAX_OUTPUT_PORT_TYPE
+Input_A3 => NA20.IN0
+Input_A3 => inst22.IN0
+Input_A3 => inst23.IN0
+Input_A3 => inst25.IN0
+Input_A3 => inst19.IN0
+Input_B3 => NB21.IN0
+Input_B3 => 21mux:inst39.A
+output_4 <= SUM4.DB_MAX_OUTPUT_PORT_TYPE
+Input_A4 => NA27.IN0
+Input_A4 => inst29.IN0
+Input_A4 => inst30.IN0
+Input_A4 => inst32.IN0
+Input_A4 => inst26.IN0
+Input_B4 => NB28.IN0
+Input_B4 => 21mux:inst40.A
+Sign_Bit <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AdderSubtracter|21mux:inst37
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|AdderSubtracter|21mux:inst38
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|AdderSubtracter|21mux:inst39
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|AdderSubtracter|21mux:inst40
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

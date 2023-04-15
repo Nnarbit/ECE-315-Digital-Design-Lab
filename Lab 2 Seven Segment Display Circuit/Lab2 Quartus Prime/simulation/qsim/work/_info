@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ECE315Group3.DIGITALLAB.001/Desktop/ECE315 Group 9/Lab2/simulation/qsim
+vLab2SegmentDisplay
+Z1 !s110 1645045259
+!i10b 1
+!s100 M0E8hfg_e[LZ?LRY@UGFX1
+IB8nFckNhbS8Q@5dkl^2Eg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645045258
+8Lab2SegmentDisplay.vo
+FLab2SegmentDisplay.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1645045259.000000
+!s107 Lab2SegmentDisplay.vo|
+!s90 -work|work|Lab2SegmentDisplay.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@lab2@segment@display
+vLab2SegmentDisplay_vlg_vec_tst
+R1
+!i10b 1
+!s100 dNXFf[HG?jRX1o;Y_YmRa2
+IFZl@<6D?maO@[N1z;fk^;1
+R2
+R0
+w1645045257
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@lab2@segment@display_vlg_vec_tst

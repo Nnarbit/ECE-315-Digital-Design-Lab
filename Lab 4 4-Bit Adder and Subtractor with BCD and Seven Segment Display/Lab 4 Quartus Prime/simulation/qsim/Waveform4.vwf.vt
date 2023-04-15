@@ -1,0 +1,165 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/03/2022 13:59:54"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          AdderSubtracter
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module AdderSubtracter_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Input_A1;
+reg Input_A2;
+reg Input_A3;
+reg Input_A4;
+reg Input_B1;
+reg Input_B2;
+reg Input_B3;
+reg Input_B4;
+reg Input_SA;
+reg Input_SB;
+// wires                                               
+wire output_1;
+wire output_2;
+wire output_3;
+wire output_4;
+wire Sign_Bit;
+
+// assign statements (if any)                          
+AdderSubtracter i1 (
+// port map - connection between master ports and signals/registers   
+	.Input_A1(Input_A1),
+	.Input_A2(Input_A2),
+	.Input_A3(Input_A3),
+	.Input_A4(Input_A4),
+	.Input_B1(Input_B1),
+	.Input_B2(Input_B2),
+	.Input_B3(Input_B3),
+	.Input_B4(Input_B4),
+	.Input_SA(Input_SA),
+	.Input_SB(Input_SB),
+	.output_1(output_1),
+	.output_2(output_2),
+	.output_3(output_3),
+	.output_4(output_4),
+	.Sign_Bit(Sign_Bit)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// Input_A4
+initial
+begin
+	Input_A4 = 1'b1;
+	Input_A4 = #320000 1'b0;
+end 
+
+// Input_A3
+initial
+begin
+	Input_A3 = 1'b0;
+	Input_A3 = #170000 1'b1;
+	Input_A3 = #330000 1'b0;
+	Input_A3 = #160000 1'b1;
+	Input_A3 = #150000 1'b0;
+end 
+
+// Input_A2
+initial
+begin
+	Input_A2 = 1'b1;
+	Input_A2 = #320000 1'b0;
+	Input_A2 = #180000 1'b1;
+	Input_A2 = #160000 1'b0;
+	Input_A2 = #150000 1'b1;
+end 
+
+// Input_A1
+initial
+begin
+	Input_A1 = 1'b0;
+	Input_A1 = #170000 1'b1;
+	Input_A1 = #490000 1'b0;
+	Input_A1 = #150000 1'b1;
+end 
+
+// Input_B4
+initial
+begin
+	Input_B4 = 1'b0;
+	Input_B4 = #320000 1'b1;
+	Input_B4 = #180000 1'b0;
+	Input_B4 = #310000 1'b1;
+end 
+
+// Input_B3
+initial
+begin
+	Input_B3 = 1'b1;
+	Input_B3 = #660000 1'b0;
+	Input_B3 = #150000 1'b1;
+end 
+
+// Input_B2
+initial
+begin
+	Input_B2 = 1'b0;
+	Input_B2 = #320000 1'b1;
+	Input_B2 = #180000 1'b0;
+	Input_B2 = #160000 1'b1;
+	Input_B2 = #150000 1'b0;
+end 
+
+// Input_B1
+initial
+begin
+	Input_B1 = 1'b1;
+	Input_B1 = #500000 1'b0;
+	Input_B1 = #160000 1'b1;
+	Input_B1 = #150000 1'b0;
+end 
+
+// Input_SA
+initial
+begin
+	Input_SA = 1'b0;
+	Input_SA = #320000 1'b1;
+	Input_SA = #180000 1'b0;
+	Input_SA = #160000 1'b1;
+end 
+
+// Input_SB
+initial
+begin
+	Input_SB = 1'b0;
+	Input_SB = #170000 1'b1;
+	Input_SB = #150000 1'b0;
+	Input_SB = #180000 1'b1;
+	Input_SB = #160000 1'b0;
+	Input_SB = #150000 1'b1;
+end 
+endmodule
+

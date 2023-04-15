@@ -1,0 +1,124 @@
+|Bit4Multiplier
+QA <= Register8bit:inst1.QA
+QB <= Register8bit:inst1.QB
+QC <= Register8bit:inst1.QC
+QD <= Register8bit:inst1.QD
+X0 => inst2.IN0
+S0 => MUX41:inst6.S0
+Y2 => MUX41:inst6.D2
+S1 => MUX41:inst6.S1
+Y3 => MUX41:inst6.D3
+Y0 => MUX41:inst6.D0
+Y1 => MUX41:inst6.D1
+X1 => inst3.IN0
+X2 => inst4.IN0
+X3 => inst5.IN0
+QE <= Register8bit:inst1.QE
+QF <= Register8bit:inst1.QF
+QG <= Register8bit:inst1.QG
+QH <= Register8bit:inst1.QH
+CLK => Register8bit:inst1.CLK
+LOAD => Register8bit:inst1.Load
+RESET => Register8bit:inst1.Reset
+
+
+|Bit4Multiplier|Register8bit:inst1
+QA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Reset => inst.ACLR
+Reset => inst27.ACLR
+Reset => inst1.ACLR
+Reset => inst4.ACLR
+Reset => inst2.ACLR
+Reset => inst3.ACLR
+Reset => inst19.ACLR
+Reset => inst16.ACLR
+CLK => inst23.IN0
+CLK => inst11.IN0
+CLK => inst31.IN0
+CLK => inst12.IN0
+CLK => inst13.IN0
+CLK => inst14.IN0
+CLK => inst15.IN0
+CLK => inst17.IN0
+Load => inst6.IN0
+A => inst.DATAIN
+QB <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+B => inst27.DATAIN
+QC <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+C => inst1.DATAIN
+QD <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D => inst4.DATAIN
+QE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E => inst2.DATAIN
+QF <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+F => inst3.DATAIN
+QG <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+G => inst19.DATAIN
+QH <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+H => inst16.DATAIN
+
+
+|Bit4Multiplier|Lab3Adder:inst
+Sum0 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+InputX0 => inst9.IN0
+InputX0 => inst2.IN0
+InputX0 => inst3.IN0
+InputX0 => inst5.IN0
+InputX0 => inst6.IN0
+InputY0 => inst10.IN0
+InputY0 => inst2.IN1
+InputY0 => inst1.IN1
+InputY0 => inst4.IN0
+InputY0 => inst6.IN1
+InputC => inst.IN2
+InputC => inst2.IN2
+InputC => inst11.IN0
+InputC => inst4.IN1
+InputC => inst5.IN1
+Sum1 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+InputX1 => inst12.IN0
+InputX1 => inst20.IN0
+InputX1 => inst22.IN0
+InputX1 => inst24.IN0
+InputX1 => inst25.IN0
+InputY1 => inst15.IN0
+InputY1 => inst20.IN1
+InputY1 => inst19.IN1
+InputY1 => inst23.IN0
+InputY1 => inst25.IN1
+Sum2 <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+InputX2 => inst13.IN0
+InputX2 => inst36.IN0
+InputX2 => inst37.IN0
+InputX2 => inst29.IN0
+InputX2 => inst30.IN0
+InputY2 => inst16.IN0
+InputY2 => inst36.IN1
+InputY2 => inst35.IN1
+InputY2 => inst28.IN0
+InputY2 => inst30.IN1
+Sum3 <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+InputX3 => inst14.IN0
+InputX3 => inst41.IN0
+InputX3 => inst42.IN0
+InputX3 => inst44.IN0
+InputX3 => inst45.IN0
+InputY3 => inst17.IN0
+InputY3 => inst41.IN1
+InputY3 => inst40.IN1
+InputY3 => inst43.IN0
+InputY3 => inst45.IN1
+Cout <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit4Multiplier|MUX41:inst6
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+

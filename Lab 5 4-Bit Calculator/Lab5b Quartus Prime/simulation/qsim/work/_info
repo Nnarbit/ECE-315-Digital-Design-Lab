@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ECE315Group3.DIGITALLAB.001/Desktop/ECE315 Group 6/Lab5b/simulation/qsim
+vBit4Multiplier
+Z0 !s110 1648672446
+!i10b 1
+!s100 <EPUkoSaimBC31[2IVH[O1
+IfNAS310]IEVUb<d1znHjR1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ECE315Group3.DIGITALLAB.001/Desktop/ECE315Group6/Lab5b/simulation/qsim
+w1648672445
+8Lab5b.vo
+FLab5b.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1648672446.000000
+!s107 Lab5b.vo|
+!s90 -work|work|Lab5b.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@bit4@multiplier
+vBit4Multiplier_vlg_vec_tst
+R0
+!i10b 1
+!s100 [`mCoeSYP[^>OgEC>^PPM1
+IoC`78=6o?Rk[V=mO2PO`P1
+R1
+R2
+w1648672444
+8WaveformTest.vwf.vt
+FWaveformTest.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 WaveformTest.vwf.vt|
+!s90 -work|work|WaveformTest.vwf.vt|
+!i113 1
+R5
+R6
+n@bit4@multiplier_vlg_vec_tst

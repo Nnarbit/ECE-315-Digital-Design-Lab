@@ -1,0 +1,20 @@
+# do Lab5b.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:06 on Mar 30,2022
+# vlog -work work Lab5b.vo 
+# -- Compiling module Bit4Multiplier
+# 
+# Top level modules:
+# 	Bit4Multiplier
+# End time: 16:34:06 on Mar 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:06 on Mar 30,2022
+# vlog -work work WaveformTest.vwf.vt 
+# -- Compiling module Bit4Multiplier_vlg_vec_tst
+# 
+# Top level modules:
+# 	Bit4Multiplier_vlg_vec_tst
+# End time: 16:34:06 on Mar 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

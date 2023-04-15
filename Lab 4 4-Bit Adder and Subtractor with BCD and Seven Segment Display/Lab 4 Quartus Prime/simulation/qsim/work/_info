@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ECE315Group3.DIGITALLAB.001/Desktop/ECE315/Lab 4/simulation/qsim
+vAdderSubtracter
+Z1 !s110 1646333996
+!i10b 1
+!s100 D@H>VngmoYVO`5mZS`L;A2
+IZWoRVTca]H<Qi96N5=^oT0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ECE315Group3.DIGITALLAB.001/Desktop/ECE315 Group 6/Lab 4/simulation/qsim
+w1646333996
+Z4 8Lab4.vo
+Z5 FLab4.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1646333996.000000
+Z9 !s107 Lab4.vo|
+Z10 !s90 -work|work|Lab4.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adder@subtracter
+vAdderSubtracter_vlg_vec_tst
+R1
+!i10b 1
+!s100 M@CBXb9MQ>O^_3gka^46g3
+IU9HzVI@j12nl_65>=n4Ne1
+R2
+R3
+w1646333994
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+Z13 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R11
+R12
+n@adder@subtracter_vlg_vec_tst
+vBlock1
+Z14 !s110 1646683701
+!i10b 1
+!s100 O;VB4f<nkSkJW76oOYaCJ1
+IF_db6n3@`gn`7hXLRMI<N2
+R2
+Z15 dC:/Users/richa/Downloads/ECE315/Lab4/simulation/qsim
+w1646683700
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z16 !s108 1646683701.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@block1
+vBlock1_vlg_vec_tst
+R14
+!i10b 1
+!s100 nMXQSL;nJ<?eZX]IXb5zj3
+I=ib@z`0g]LafIGYJTMXMQ0
+R2
+R15
+w1646683698
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R16
+!s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@block1_vlg_vec_tst
+vLab4
+Z20 !s110 1646251416
+!i10b 1
+!s100 gffY91hk6i;=5_CSTzH?V3
+IUWIc5]Mk6HIh7:P=RfAaV2
+R2
+R0
+w1646251415
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z21 !s108 1646251416.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@lab4
+vLab4_vlg_vec_tst
+R20
+!i10b 1
+!s100 d9KCk<hRgQj_[^6Dn6M5k0
+IEmfhf5Soh^KzDOW4aZQYI2
+R2
+R0
+w1646251414
+R17
+R18
+R13
+R7
+r1
+!s85 0
+31
+R21
+!s107 Waveform.vwf.vt|
+R19
+!i113 1
+R11
+R12
+n@lab4_vlg_vec_tst

@@ -1,0 +1,145 @@
+Flow report for AdderSubtracter
+Sun Feb 27 22:59:48 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sun Feb 27 22:59:48 2022       ;
+; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
+; Revision Name                   ; AdderSubtracter                             ;
+; Top-level Entity Name           ; AdderSubtracter                             ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 5 / 32,070 ( < 1 % )                        ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 14 / 457 ( 3 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/27/2022 22:49:58 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; AdderSubtracter     ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 5311875698778.164602019817892          ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4844 MB             ; 00:00:25                           ;
+; Fitter               ; 00:02:10     ; 1.0                     ; 6841 MB             ; 00:08:01                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4868 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 5179 MB             ; 00:00:05                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4728 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4728 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4740 MB             ; 00:00:01                           ;
+; Total                ; 00:02:42     ; --                      ; --                  ; 00:08:45                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-2N64JG98  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off AdderSubtracter -c AdderSubtracter
+quartus_fit --read_settings_files=off --write_settings_files=off AdderSubtracter -c AdderSubtracter
+quartus_asm --read_settings_files=off --write_settings_files=off AdderSubtracter -c AdderSubtracter
+quartus_sta AdderSubtracter -c AdderSubtracter
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AdderSubtracter -c AdderSubtracter --vector_source="C:/Users/ECE315Group3.DIGITALLAB.005/Desktop/Lab 3/Waveform.vwf" --testbench_file="C:/Users/ECE315Group3.DIGITALLAB.005/Desktop/Lab 3/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AdderSubtracter -c AdderSubtracter --vector_source="C:/Users/brand/Desktop/Lab 3/Waveform.vwf" --testbench_file="C:/Users/brand/Desktop/Lab 3/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/brand/Desktop/Lab 3/simulation/qsim/" AdderSubtracter -c AdderSubtracter
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AdderSubtracter -c AdderSubtracter --vector_source="C:/Users/brand/Desktop/Lab 3/Waveform1.vwf" --testbench_file="C:/Users/brand/Desktop/Lab 3/simulation/qsim/Waveform1.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/brand/Desktop/Lab 3/simulation/qsim/" AdderSubtracter -c AdderSubtracter
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AdderSubtracter -c AdderSubtracter --vector_source="C:/Users/brand/Desktop/Lab 3/Waveform1.vwf" --testbench_file="C:/Users/brand/Desktop/Lab 3/simulation/qsim/Waveform1.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/brand/Desktop/Lab 3/simulation/qsim/" AdderSubtracter -c AdderSubtracter
+
+
+
